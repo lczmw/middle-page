@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.body {
+  font-size: 16px; }
+  [data-dpr="2"] .body {
+    font-size: 32px; }
+  [data-dpr="3"] .body {
+    font-size: 48px; }
+
+body {
+  background: #f8f8f8;
+  -webkit-overflow-scrolling: touch; }
+
+.g-body {
+  overflow: hidden; }
+
+/**
+ * 头部
+ */
+.g-header {
+  background: #fff;
+  height: 1.46667rem;
+  margin: 0.16rem 0;
+  padding: 0 0.26667rem;
+  overflow: hidden; }
+
+.mkf-icon {
+  width: 0.66667rem;
+  height: 0.66667rem;
+  background: url("../images/mkfIcon.png") no-repeat center top;
+  background-size: 100% auto;
+  display: block;
+  float: left;
+  vertical-align: middle;
+  margin-top: 0.37333rem; }
+
+.header-title {
+  font-size: 0.34667rem;
+  line-height: 1.46667rem;
+  float: left;
+  padding-left: 0.37333rem;
+  color: #1d1d1d;
+  font-weight: bold;
+  text-align: left; }
