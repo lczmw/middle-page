@@ -38,6 +38,7 @@ gulp.task('mini-html', function() {
           return (cdn+str);             
     }))
     .pipe(replace(/\.\.\/(css\/\S+\.(css|less|scss))/g,function(all,str){
+            console.log(str)
            return (cdn+str); 
     }))
     .pipe(replace(/\.\.\/(js\/\S+\.(js))/g,function(all,str){

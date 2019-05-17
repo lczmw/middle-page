@@ -1,43 +1,26 @@
-@charset "UTF-8";
-.body {
-  font-size: 16px; }
-  [data-dpr="2"] .body {
-    font-size: 32px; }
-  [data-dpr="3"] .body {
-    font-size: 48px; }
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.0rem; }
 
-body {
-  background: #f8f8f8;
-  -webkit-overflow-scrolling: touch; }
+.main__top {
+  margin-bottom: 0.8rem; }
 
-.g-body {
-  overflow: hidden; }
+.main__img {
+  width: 2.4rem;
+  height: 2.4rem; }
 
-/**
- * 头部
- */
-.g-header {
-  background: #fff;
-  height: 1.46667rem;
-  margin: 0.16rem 0;
-  padding: 0 0.26667rem;
-  overflow: hidden; }
+.main__tips {
+  font-size: 0.85rem;
+  color: #353535; }
 
-.mkf-icon {
-  width: 0.66667rem;
-  height: 0.66667rem;
-  background: url("../images/mkfIcon.png") no-repeat center top;
-  background-size: 100% auto;
-  display: block;
-  float: left;
-  vertical-align: middle;
-  margin-top: 0.37333rem; }
-
-.header-title {
-  font-size: 0.34667rem;
-  line-height: 1.46667rem;
-  float: left;
-  padding-left: 0.37333rem;
-  color: #1d1d1d;
-  font-weight: bold;
-  text-align: left; }
+.main__arrow {
+  position: absolute;
+  top: 1.85rem;
+  right: 1.6rem;
+  width: 3.05rem;
+  height: 2.75rem;
+  background-image: url("../images/arrow@3x.png");
+  background-size: 100%; }
